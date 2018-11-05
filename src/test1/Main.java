@@ -20,5 +20,6 @@ public void start(Stage primaryStage) throws Exception {
 	      stage.show();
 	      //test//
 	      //hello world
+	      //hola terra
 	}
 	}
