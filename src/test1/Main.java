@@ -19,5 +19,5 @@ public void start(Stage primaryStage) throws Exception {
 	      stage.setScene(scene);
 	      stage.show();
 	      //test//
-	}
+		}
 	}
