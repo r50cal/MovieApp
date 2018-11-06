@@ -18,8 +18,5 @@ public void start(Stage primaryStage) throws Exception {
 	      Stage stage = new Stage();
 	      stage.setScene(scene);
 	      stage.show();
-	      //test//
-	      //hello world
-	      //hola terra
-	}
+	     }
 	}
