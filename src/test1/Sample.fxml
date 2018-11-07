@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
@@ -17,7 +18,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MovieController">
    <center>
       <ScrollPane prefHeight="200.0" prefWidth="700.0" BorderPane.alignment="CENTER">
         <content>
@@ -41,6 +42,14 @@
                         <ImageView fitHeight="190.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1" />
                         <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
                            <children>
+                              <Label alignment="CENTER" prefHeight="17.0" prefWidth="133.0" text="Halloween">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Label>
                               <ImageView fx:id="halloween" fitHeight="190.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                                  <effect>
                                     <DropShadow />
@@ -49,20 +58,26 @@
                                     <Image url="https://i.imgur.com/7RFjjoy.jpg" />
                                  </image>
                               </ImageView>
-                              <Label prefHeight="17.0" prefWidth="133.0" text="            Halloween">
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="156.0" text="R">
                                  <font>
-                                    <Font name="System Bold" size="12.0" />
+                                    <Font name="Arial Bold" size="13.0" />
                                  </font>
-                              </Label>
-                              <Label text="                  R">
-                                 <font>
-                                    <Font name="System Bold" size="12.0" />
-                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
                               </Label>
                            </children>
                         </VBox>
                         <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2">
                            <children>
+                              <Label alignment="CENTER" prefHeight="17.0" prefWidth="135.0" text="Smallfoot">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Label>
                               <ImageView fx:id="smallfoot" fitHeight="190.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                                  <effect>
                                     <DropShadow />
@@ -71,42 +86,54 @@
                                     <Image url="https://i.imgur.com/eAG6v7c.png" />
                                  </image>
                               </ImageView>
-                              <Label prefHeight="17.0" prefWidth="135.0" text="            Smallfoot">
+                              <Label prefHeight="17.0" prefWidth="135.0" text="                   G">
                                  <font>
-                                    <Font name="System Bold" size="12.0" />
+                                    <Font name="Arial Bold" size="13.0" />
                                  </font>
-                              </Label>
-                              <Label prefHeight="17.0" prefWidth="135.0" text="                   G" textFill="#02f50a">
-                                 <font>
-                                    <Font name="System Bold" size="12.0" />
-                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
                               </Label>
                            </children>
                         </VBox>
                         <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3">
                            <children>
+                              <Label alignment="CENTER" prefHeight="17.0" prefWidth="130.0" text="SM370">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="5.0" />
+                                 </padding>
+                              </Label>
                               <ImageView fx:id="sm370" fitHeight="190.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="http://www.simpleimageresizer.com/_uploads/photos/1f571b08/SM370_960x1440.png" />
-                                 </image>
                                  <effect>
                                     <DropShadow />
                                  </effect>
+                                 <image>
+                                    <Image url="@../../4OHZdWc.jpg" />
+                                 </image>
                               </ImageView>
-                              <Label prefHeight="17.0" prefWidth="130.0" text="             SM370">
+                              <Label alignment="CENTER" prefHeight="17.0" prefWidth="129.0" text="NC-17">
                                  <font>
-                                    <Font name="System Bold" size="12.0" />
+                                    <Font name="Arial Bold" size="13.0" />
                                  </font>
-                              </Label>
-                              <Label prefHeight="17.0" prefWidth="129.0" text="              NC-17" textFill="RED">
-                                 <font>
-                                    <Font name="System Bold" size="12.0" />
-                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
                               </Label>
                            </children>
                         </VBox>
                         <VBox prefHeight="200.0" prefWidth="100.0">
                            <children>
+                              <Label alignment="CENTER" prefHeight="16.0" prefWidth="161.0" text="Venom">
+                                 <font>
+                                    <Font name="Arial Bold" size="13.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets bottom="5.0" />
+                                 </VBox.margin>
+                              </Label>
                               <ImageView fx:id="venom" fitHeight="190.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
                                  <effect>
                                     <DropShadow />
@@ -115,30 +142,35 @@
                                     <Image url="https://i.imgur.com/H0u6dJp.jpg" />
                                  </image>
                               </ImageView>
-                              <Label prefHeight="17.0" prefWidth="129.0" text="              Venom">
+                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="158.0" text="PG-13">
                                  <font>
-                                    <Font name="System Bold" size="12.0" />
+                                    <Font name="Arial Bold" size="13.0" />
                                  </font>
-                              </Label>
-                              <Label prefHeight="17.0" prefWidth="128.0" text="               PG-13" textFill="#00fad1">
-                                 <font>
-                                    <Font name="System Bold" size="12.0" />
-                                 </font>
+                                 <padding>
+                                    <Insets top="5.0" />
+                                 </padding>
                               </Label>
                            </children>
                         </VBox>
                      </children>
+                     <padding>
+                        <Insets top="50.0" />
+                     </padding>
                   </GridPane>
                   <Pane layoutX="39.0" layoutY="-4.0" prefHeight="36.0" prefWidth="729.0">
                      <children>
-                        <CheckBox layoutX="40.0" layoutY="10.0" mnemonicParsing="false" text="All" />
-                        <CheckBox layoutX="93.0" layoutY="10.0" mnemonicParsing="false" text="G" />
-                        <CheckBox layoutX="195.0" layoutY="10.0" mnemonicParsing="false" text="PG-13" />
-                        <CheckBox layoutX="263.0" layoutY="10.0" mnemonicParsing="false" text="R" />
-                        <CheckBox layoutX="309.0" layoutY="10.0" mnemonicParsing="false" text="NC-17" />
-                        <CheckBox layoutX="140.0" layoutY="10.0" mnemonicParsing="false" text="PG" />
+                        <CheckBox fx:id="allBox" layoutX="40.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleAllBox" text="All" />
+                        <CheckBox fx:id="GBox" layoutX="93.0" layoutY="10.0" mnemonicParsing="false" text="G" />
+                        <CheckBox fx:id="PG13Box" layoutX="195.0" layoutY="10.0" mnemonicParsing="false" text="PG-13" />
+                        <CheckBox fx:id="RBox" layoutX="263.0" layoutY="10.0" mnemonicParsing="false" text="R" />
+                        <CheckBox fx:id="NC17Box" layoutX="309.0" layoutY="10.0" mnemonicParsing="false" text="NC-17" />
+                        <CheckBox fx:id="PGBox" layoutX="140.0" layoutY="10.0" mnemonicParsing="false" text="PG" />
                      </children>
                   </Pane>
+                  <Label alignment="CENTER" layoutX="227.0" layoutY="41.0" prefHeight="43.0" prefWidth="247.0" text="NOW PLAYING" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Black" size="18.0" />
+                     </font></Label>
                </children>
             </AnchorPane>
         </content>
